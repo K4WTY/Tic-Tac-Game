@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tic Tac - Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="app" id="app">
+            <div class="app-header">
+                <p>PICK PLAYER 1'S MARK</p>
+                <div>
+                    <button class="button-selected" id="buttonLetterX">X</button>
+                    <button class="button-unselected" id="buttonLetterO">O</button>
+                </div>
+            </div>
+            <div class="app-body">
+                <button id="gameButton">NEW GAME (VS CPU)</button>
+                <button id="gameButton">NEW GAME (VS PLAYER)</button>
+            </div>
+        </div>
+        <div class="game" id="game">
+            <div class="game-top">
+                <p id="turn">TURN</p>
+            </div>
+            <div class="game-body">
+                <button id="gameArea0" class="0"></button>
+                <button id="gameArea1" class="1"></button>
+                <button id="gameArea2" class="2"></button>
+                <button id="gameArea3" class="3"></button>
+                <button id="gameArea4" class="4"></button>
+                <button id="gameArea5" class="5"></button>
+                <button id="gameArea6" class="6"></button>
+                <button id="gameArea7" class="7"></button>
+                <button id="gameArea8" class="8"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
